@@ -1,0 +1,18 @@
+body {
+    font-size: 2rem;
+    padding: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* input, button {
+    font: inherit;
+} */
+/* p {
+    text-align: center;
+} */
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    font-weight: normal;
+}
