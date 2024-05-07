@@ -1,0 +1,72 @@
+/* Importing the Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Applying a universal reset to normalize default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body element */
+body {
+    margin: 0.5rem; /* Add some margin around the body */
+    font-family: Roboto, sans-serif; /* Set the font family for the body text */
+    text-align: center; /* Center-align text within the body */
+}
+
+/* Styling the navigation menu */
+nav {
+    border: 2px solid #333; /* Add border to the navigation menu */
+    border-radius: 2rem; /* Rounded corners for the navigation menu */
+    margin: 0 auto 1rem; /* Center the navigation menu horizontally with some bottom margin */
+    max-width: 600px; /* Limit the maximum width of the navigation menu */
+    font-size: 3rem; /* Set the font size for the navigation menu items */
+    line-height: 7rem; /* Set the line height for the navigation menu items */
+}
+
+/* Styling the heading level 2 */
+h2 {
+    padding: 1rem; /* Add padding around the heading */
+    background-color: gold; /* Set the background color for the heading */
+    border-radius: 2rem 2rem 0 0; /* Rounded corners for the top of the heading */
+}
+
+/* Styling the unordered list */
+ul {
+    list-style-type: none; /* Remove default list styles */
+}
+
+/* Styling list items */
+li {
+    border: 2px solid #333; /* Add border to list items */
+}
+
+/* Styling the last list item */
+li:last-child {
+    border-radius: 0 0 1.65rem 1.65rem; /* Rounded corners for the bottom of the last list item */
+}
+
+/* Styling anchor tags within list items */
+li a {
+    display: block; /* Convert anchor tags to block elements */
+}
+
+/* Styling visited links */
+li a,
+li:visited {
+    color: black; /* Set the color for unvisited and visited links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling hover and focus states for anchor tags */
+li a:hover,
+li a:focus {
+    background: #333; /* Change background color on hover or focus */
+    color: whitesmoke; /* Change text color on hover or focus */
+}
+
+/* Styling anchor tag in the last list item */
+li:last-child a {
+    border-radius: 0 0 1.5rem 1.5rem; /* Adjust rounded corners for the bottom of the last list item */
+}
